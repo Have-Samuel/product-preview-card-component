@@ -1,0 +1,26 @@
+body {
+  width: 375px;
+  margin: 0 auto;
+  padding: 0;
+  height: 667px;
+}
+
+.container {
+  background-color: #F2EAE2;
+}
+
+.container img {
+  width: 374px;
+  left: 16px;
+  top: 28px;
+  border-radius: 0px;
+}
+
+.container p {
+  height: 15px;
+width: 100.58308410644531px;
+left: 26.239013671875px;
+top: 264px;
+border-radius: nullpx;
+
+}
