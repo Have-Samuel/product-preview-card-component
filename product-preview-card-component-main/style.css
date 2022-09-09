@@ -1,5 +1,5 @@
 body {
-  width: 375px;
+  width: 399px;
   margin: 0 auto;
   padding: 0;
   height: 667px;
@@ -18,9 +18,17 @@ body {
 
 .container p {
   height: 15px;
-width: 100.58308410644531px;
-left: 26.239013671875px;
-top: 264px;
-border-radius: nullpx;
+  width: 100.58308410644531px;
+  left: 26.239013671875px;
+  top: 264px;
+  border-radius: nullpx;
+}
+
+.container h1 {
+  height: 64px;
+  width: 322.5218505859375px;
+  left: 26.239013671875px;
+  top: 291px;
+  border-radius: nullpx;
 
 }
