@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
 body {
-  width: 399px;
+  width: 400px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 1rem;
   height: 667px;
 }
 
 .container {
   background-color: #F2EAE2;
+  padding: 1rem;
+}
+
+.content {
+  background-color: #fff;
 }
 
 .container img {
-  width: 374px;
+  width: 369px;
   left: 16px;
   top: 28px;
-  border-radius: 0px;
+  border-radius: 5px;
+  align-items: center;
 }
 
 .container h6 {
@@ -78,11 +87,7 @@ body {
 }
 
 .container .fa-thin {
-  position: absolute;
-  left: 0%;
-  right: 87.04%;
-  top: 5.56%;
-  bottom: 5.56%;
+  position: relative;
   left: 0%;
   right: 87.04%;
   top: 5.56%;
