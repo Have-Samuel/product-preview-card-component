@@ -16,7 +16,7 @@ body {
   border-radius: 0px;
 }
 
-.container p {
+.container h6 {
   height: 15px;
   width: 100.58308410644531px;
   left: 26.239013671875px;
@@ -29,6 +29,62 @@ body {
   width: 322.5218505859375px;
   left: 26.239013671875px;
   top: 291px;
-  border-radius: nullpx;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-family: 'Fraunces';
+  font-style: normal;
+}
 
+.container p {
+  height: 69px;
+  width: 322.5218505859375px;
+  left: 26.239013671875px;
+  top: 371px;
+  border-radius: nullpx;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6C7289;
+}
+
+.container h3 {
+  font-family: 'Fraunces';
+  Font-Weight: 700;
+  Size: 32px;
+  Line-height: 32px;
+  color: #3D8168;
+}
+
+.container button {
+  height: 48px;
+  width: 322.5218505859375px;
+  left: 27px;
+  top: 535px;
+  border-radius: 8px;
+  background: rgba(61, 129, 104, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.container .fa-thin {
+  position: absolute;
+  left: 0%;
+  right: 87.04%;
+  top: 5.56%;
+  bottom: 5.56%;
+  left: 0%;
+  right: 87.04%;
+  top: 5.56%;
+  bottom: 5.56%;
 }
