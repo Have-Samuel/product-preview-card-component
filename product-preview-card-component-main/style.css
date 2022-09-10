@@ -4,7 +4,7 @@
 body {
   width: 400px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0;
   height: 667px;
 }
 
@@ -15,25 +15,30 @@ body {
 
 .content {
   background-color: #fff;
+  border-radius: 0 0 8px 8px;
 }
 
 .container img {
   width: 369px;
-  left: 16px;
-  top: 28px;
-  border-radius: 5px;
-  align-items: center;
+  border-radius: 8px 8px 0 0;
+  margin-right: 1rem;
 }
 
-.container h6 {
-  height: 15px;
-  width: 100.58308410644531px;
-  left: 26.239013671875px;
-  top: 264px;
-  border-radius: nullpx;
+.inner_cont {
+  padding: 1.5rem;
 }
 
-.container h1 {
+.inner_cont h4 {
+  color: #6c7289;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 5px;
+
+}
+
+.inner_cont h1 {
   height: 64px;
   width: 322.5218505859375px;
   left: 26.239013671875px;
@@ -43,16 +48,15 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
-  font-family: 'Fraunces';
+  font-family: 'Fraunces', serif;
   font-style: normal;
 }
 
-.container p {
+.inner_cont p {
   height: 69px;
   width: 322.5218505859375px;
   left: 26.239013671875px;
   top: 371px;
-  border-radius: nullpx;
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 500;
@@ -62,34 +66,50 @@ body {
   color: #6C7289;
 }
 
-.container h3 {
+.price {
+  display: flex;
+  gap: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-Size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0;
+  text-align: center;
+  align-items: center;
+  color: #6c7289;
+}
+
+.price h3 {
   font-family: 'Fraunces';
-  Font-Weight: 700;
-  Size: 32px;
-  Line-height: 32px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
   color: #3D8168;
 }
 
-.container button {
+.price h6 {
+  text-decoration: line-through;
+  height: 15px;
+  width: 100.58308410644531px;
+  left: 26.239013671875px;
+  top: 264px;
+}
+
+.inner_cont button {
   height: 48px;
-  width: 322.5218505859375px;
-  left: 27px;
-  top: 535px;
+  width: 322px;
   border-radius: 8px;
-  background: rgba(61, 129, 104, 1);
-  color: rgba(255, 255, 255, 1);
+  background: #3d8168;
+  color: #fff;
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: center;
+  border: none;
 }
 
-.container .fa-thin {
-  position: relative;
-  left: 0%;
-  right: 87.04%;
-  top: 5.56%;
-  bottom: 5.56%;
+.inner_cont button:hover {
+  background-color: rgb(66, 112, 76);
 }
