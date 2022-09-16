@@ -27,15 +27,6 @@ body {
   padding: 1.5rem;
 }
 
-.inner_cont h4 {
-  color: #6c7289;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 15px;
-  letter-spacing: 5px;
-}
-
 .inner_cont h1 {
   width: 322px;
   font-size: 32px;
@@ -48,6 +39,15 @@ body {
 }
 
 .inner_cont p {
+  color: #6c7289;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 5px;
+}
+
+.inner_cont span {
   width: 322px;
   left: 26px;
   top: 371px;
@@ -80,7 +80,7 @@ body {
   color: #3d8168;
 }
 
-.price h6 {
+.price h5 {
   text-decoration: line-through;
   height: 15px;
   width: 100px;
