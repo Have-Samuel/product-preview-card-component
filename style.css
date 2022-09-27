@@ -125,6 +125,7 @@ body {
   .desktop-img {
     display: block;
     width: 51%;
+    height: 78vh;
     border-radius: 8px 0 0 8px;
   }
 
@@ -133,7 +134,7 @@ body {
   }
 
   .content {
-    width: 50vw;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
