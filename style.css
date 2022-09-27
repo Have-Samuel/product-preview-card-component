@@ -125,6 +125,7 @@ body {
   .desktop-img {
     display: block;
     width: 51%;
+    height: 80vh;
     border-radius: 8px 0 0 8px;
   }
 
@@ -141,16 +142,11 @@ body {
     border-radius: 10px;
   }
 
-  .inner_cont {
-    line-height: 1rem;
-  }
-
   .inner_cont p {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 15px;
-    letter-spacing: 5px;
     text-align: left;
   }
 
@@ -159,13 +155,11 @@ body {
     font-size: 2.5rem;
     margin-left: 1rem;
     line-height: 38px;
-    letter-spacing: 1px;
-
   }
 
   .inner_cont span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0;
