@@ -125,7 +125,6 @@ body {
   .desktop-img {
     display: block;
     width: 51%;
-    height: 78vh;
     border-radius: 8px 0 0 8px;
   }
 
@@ -161,7 +160,7 @@ body {
     margin-left: 1rem;
     line-height: 38px;
     letter-spacing: 1px;
-    margin-top: 2rem;
+
   }
 
   .inner_cont span {
