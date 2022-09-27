@@ -124,8 +124,8 @@ body {
 
   .desktop-img {
     display: block;
-    width: 51%;
-    height: 80vh;
+    width: 50%;
+    height: 75vh;
     border-radius: 8px 0 0 8px;
   }
 
@@ -138,8 +138,17 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     border-radius: 10px;
+  }
+
+  .inner_cont {
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .inner_cont p {
@@ -147,10 +156,13 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 15px;
-    text-align: left;
+    margin-right: 12rem;
   }
 
   .inner_cont h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20vw;
     font-size: 2.5rem;
     margin-left: 1rem;
@@ -163,6 +175,12 @@ body {
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0;
+    width: 20vw;
+    margin-right: 1rem;
+  }
+
+  .price {
+    margin-right: 4.5rem;
   }
 
   .inner_cont button {
