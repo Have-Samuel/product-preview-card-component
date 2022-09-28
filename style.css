@@ -132,7 +132,6 @@ body {
     display: flex;
     width: 50vw;
     margin: 0 auto;
-    margin-top: 3rem;
     flex-direction: row;
     border-radius: 10px;
   }
