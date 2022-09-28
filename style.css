@@ -138,13 +138,13 @@ body {
   .desktop-img {
     display: block;
     width: 50%;
-    /* height: 80vh; */
     border-radius: 8px 0 0 8px;
   }
 
   .inner_cont {
     display: flex;
     flex-direction: column;
+    padding: 2rem;
   }
 
   .inner_cont p {
@@ -175,6 +175,6 @@ body {
   }
 
   .inner_cont button {
-    
+    width: 20vw;
   }
 }
