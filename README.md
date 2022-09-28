@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Have-Samuel/product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://product-preview-card-infinte.netlify.app/)
+- [Github link](https://github.com/Have-Samuel/product-preview-card-component)
+- [Live Demo](https://product-preview-card-infinte.netlify.app/)
 
 ## My process
 
