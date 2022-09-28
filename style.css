@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2eae2;
+  padding: 1rem;
+}
+
+.content {
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
+  height: 90vh;
+  width: 375px;
+}
+
+.container-img {
+  background-image: url('./images/mobile.jpg');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: 375px;
+  height: 240px;
+  border-radius: 8px 8px 0 0;
+}
+
+.inner_cont {
+  padding: 26.24px;
+}
+
+.inner_cont h1 {
+  width: 322px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+}
+
+.inner_cont p {
+  color: #6c7289;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 5px;
+  height: 15px;
+  width: 100px;
+  text-align: left;
+}
+
+.inner_cont span {
+  width: 322.52px;
+  height: 69px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 23px;
+  color: #6c7289;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.price {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.price h2 {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #3d8168;
+}
+
+.price h3 {
+  text-decoration: line-through;
+  height: 23px;
+  width: 52.48px;
+  font-weight: 500;
+  color: #6c7289;
+  line-height: 23px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.inner_cont button {
+  height: 48px;
+  width: 322px;
+  border-radius: 8px;
+  background: #3d8168;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  border: none;
+}
+
+.inner_cont button:hover {
+  background-color: rgb(66, 112, 76);
+  cursor: pointer;
+}
