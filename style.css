@@ -3,7 +3,6 @@
 
 body {
   margin: 0;
-  padding-top: 1rem;
 }
 
 .container {
@@ -34,7 +33,7 @@ body {
 }
 
 .inner_cont {
-  padding: 1.5rem;
+  padding: 26.24px;
 }
 
 .inner_cont h1 {
@@ -55,34 +54,29 @@ body {
   font-weight: 500;
   line-height: 15px;
   letter-spacing: 5px;
+  height: 15px;
+  width: 100px;
+  text-align: left;
 }
 
 .inner_cont span {
-  width: 322px;
-  left: 26px;
-  top: 371px;
+  width: 322.52px;
+  height: 69px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
   font-weight: 500;
   line-height: 23px;
-  letter-spacing: 0;
-  text-align: left;
   color: #6c7289;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .price {
   display: flex;
   gap: 1rem;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 23px;
-  letter-spacing: 0;
-  text-align: center;
   align-items: center;
 }
 
-.price h3 {
+.price h2 {
   font-family: 'Fraunces', sans-serif;
   font-weight: 700;
   font-size: 32px;
@@ -90,13 +84,15 @@ body {
   color: #3d8168;
 }
 
-.price h5 {
+.price h3 {
   text-decoration: line-through;
-  height: 15px;
-  width: 100px;
-  left: 26px;
-  top: 264px;
+  height: 23px;
+  width: 52.48px;
+  font-weight: 500;
   color: #6c7289;
+  line-height: 23px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
 .inner_cont button {
