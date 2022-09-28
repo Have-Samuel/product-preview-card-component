@@ -112,7 +112,7 @@ body {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   body {
     width: 100vw;
   }
@@ -122,14 +122,14 @@ body {
   }
 
   .container {
+    /* width: 100vw; */
     height: 95vh;
     background-color: #f2eae2;
   }
 
   .content {
     display: flex;
-    width: 50vw;
-    /* height: 80vh; */
+    width: 50%;
     margin: 0 auto;
     flex-direction: row;
     border-radius: 10px;
@@ -137,8 +137,8 @@ body {
 
   .desktop-img {
     display: block;
-    width: 40vw;
-    height: 80vh;
+    width: 50%;
+    /* height: 80vh; */
     border-radius: 8px 0 0 8px;
   }
 
@@ -159,18 +159,22 @@ body {
   }
 
   .inner_cont h1 {
-    width: 20vw;
     font-style: normal;
     font-weight: 700;
     font-size: 41px;
     line-height: 35px;
+    width: 20vw;
   }
 
   .inner_cont span {
     font-family: 'Montserrat', sans-serif;
-    width: 21vw;
+    width: 20vw;
     font-weight: 500;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 28px;
+  }
+
+  .inner_cont button {
+    
   }
 }
