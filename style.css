@@ -122,15 +122,14 @@ body {
   }
 
   .container {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    height: 95vh;
     background-color: #f2eae2;
   }
 
   .content {
     display: flex;
     width: 50vw;
+    /* height: 80vh; */
     margin: 0 auto;
     flex-direction: row;
     border-radius: 10px;
@@ -138,7 +137,7 @@ body {
 
   .desktop-img {
     display: block;
-    width: 50vw;
+    width: 40vw;
     height: 80vh;
     border-radius: 8px 0 0 8px;
   }
@@ -150,8 +149,6 @@ body {
 
   .inner_cont p {
     align-self: flex-start;
-    height: 15px;
-    width: 92px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
