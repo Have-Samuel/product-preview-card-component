@@ -129,16 +129,17 @@
     background-image: url('./images/desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100%;
+    background-origin: content-box;
     height: 80vh;
-    width: 337.69px;
+    width: 100vw;
     border-radius: 8px 0 0 8px;
   }
 
   .inner_cont {
     display: flex;
+    width: 85vw;
     flex-direction: column;
-    gap: 0.5rem;
-    /* padding: 1rem; */
   }
 
   .inner_cont p {
@@ -148,8 +149,9 @@
     font-weight: 500;
     line-height: 15px;
     letter-spacing: 5px;
-    text-align: left;
     color: #6c7289;
+    width: 92px;
+    margin-bottom: 0;
   }
 
   .inner_cont h1 {
@@ -158,6 +160,8 @@
     font-size: 41px;
     line-height: 35px;
     width: 20vw;
+    height: 96px;
+    margin-bottom: 3rem;
   }
 
   .inner_cont span {
@@ -166,7 +170,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    margin-top: -1rem;
+    margin-bottom: 1rem;
   }
 
   .price {
