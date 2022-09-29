@@ -107,21 +107,18 @@
 }
 
 .inner_cont button:hover {
-  background-color: rgb(66, 112, 76);
+  background-color: rgb(9, 68, 22);
   cursor: pointer;
 }
 
 @media (min-width: 1000px) {
-  /* .container {
-    display: flex;
-    flex-direction: column;
-  } */
-
   .content {
     display: flex;
-    width: 46vw;
-    height: 80vh;
+    width: 48%;
+    height: 85%;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
   }
 
@@ -131,14 +128,14 @@
     background-size: cover;
     background-position: 100%;
     background-origin: content-box;
-    height: 80vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     border-radius: 8px 0 0 8px;
   }
 
   .inner_cont {
     display: flex;
-    width: 85vw;
+    width: 85%;
     flex-direction: column;
   }
 
@@ -151,7 +148,6 @@
     letter-spacing: 5px;
     color: #6c7289;
     width: 92px;
-    margin-bottom: 0;
   }
 
   .inner_cont h1 {
@@ -175,6 +171,29 @@
 
   .price {
     margin-top: 2rem;
+    display: flex;
+    gap: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .price h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .price h3 {
+    height: 23px;
+    width: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .inner_cont button {
