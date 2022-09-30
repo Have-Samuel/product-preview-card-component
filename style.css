@@ -141,6 +141,7 @@
   .inner_cont {
     display: flex;
     width: 85%;
+    height: 90%;
     flex-direction: column;
   }
 
