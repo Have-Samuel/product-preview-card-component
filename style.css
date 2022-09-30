@@ -90,7 +90,7 @@
   font-size: 14px;
 }
 
-.inner_cont a button {
+.inner_cont button {
   height: 48px;
   width: 322px;
   border-radius: 8px;
@@ -102,10 +102,9 @@
   line-height: 17px;
   letter-spacing: 0;
   border: none;
-  text-decoration: none;
 }
 
-.inner_cont a button:hover {
+.inner_cont button:hover {
   background-color: rgb(9, 68, 22);
   cursor: pointer;
 }
@@ -137,12 +136,11 @@
     border-radius: 8px 0 0 8px;
   }
 
-  .inner_cont {
+  /* .inner_cont {
     display: flex;
     width: 85%;
-    height: 90%;
     flex-direction: column;
-  }
+  } */
 
   .inner_cont p {
     display: flex;
@@ -209,7 +207,8 @@
     text-align: left;
   }
 
-  .inner_cont a button {
+  .inner_cont button {
     width: 20vw;
+    height: 3.6rem;
   }
 }
