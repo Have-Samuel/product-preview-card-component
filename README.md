@@ -24,7 +24,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - [Github link](https://github.com/Have-Samuel/product-preview-card-component)
-- [Live Demo]()
+- [Live Demo](https://silly-card-infinite.netlify.app/)
 
 ## My process
 
