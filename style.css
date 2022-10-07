@@ -141,7 +141,7 @@
     justify-content: center;
     width: 50%;
     padding: 2.1rem;
-    overflow: auto;
+    overflow: hidden;
   }
 
   .inner_cont p {
